@@ -30,7 +30,7 @@ function updateStats() {
 function feed() {
     hunger = Math.min(10, hunger + 2);
     mood = Math.min(10, mood + 1);
-    messageEl.textContent = "You fed Monkey 🍌";
+    messageEl.textContent = "You fed the monkey 🍌";
     updateStats();
 }
 
@@ -39,9 +39,9 @@ function play() {
         mood = Math.min(10, mood + 2);
         energy = Math.max(0, energy - 1);
         hunger = Math.max(0, hunger - 1);
-        messageEl.textContent = "Monkey is playing 🎉";
+        messageEl.textContent = "The monkey is playing 🎉";
     } else {
-        messageEl.textContent = "Monkeyis too tired to play…";
+        messageEl.textContent = "The monkey is too tired to play…";
     }
     updateStats();
 }
@@ -49,7 +49,7 @@ function play() {
 function rest() {
     energy = Math.min(10, energy + 3);
     mood = Math.min(10, mood + 1);
-    messageEl.textContent = "Monkey resting 😴";
+    messageEl.textContent = "The monkey is resting 😴";
     updateStats();
 }
 
