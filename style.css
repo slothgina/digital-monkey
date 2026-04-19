@@ -67,11 +67,11 @@ button {
   0% { text-shadow: 0 0 2px #ffd700; }
   50% { text-shadow: 0 0 10px #ffea00; }
   100% { text-shadow: 0 0 2px #ffd700; }
+}
 
+/* Monkey size */
 #monkey-art {
   width: 128px;
   height: auto;
   image-rendering: pixelated;
 }
-    
-
