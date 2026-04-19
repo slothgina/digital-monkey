@@ -5,12 +5,6 @@ body {
     padding: 20px;
 }
 
-#monkey {
-  width: 128px;
-  image-rendering: pixelated;
-}
-
-
 #monkey-box {
     font-size: 24px;
     margin-bottom: 20px;
@@ -74,4 +68,8 @@ button {
   100% { text-shadow: 0 0 2px #ffd700; }
 }
 
+#monkey-art {
+  width: 128px;
+  image-rendering: pixelated;
+}
 
